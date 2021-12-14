@@ -27,6 +27,5 @@ const average = (array) => {
   const media = resultadoSoma / quantidadeIndices;
   return Math.round(media);
 };
-console.log(average([]));
 
 module.exports = average;
